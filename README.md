@@ -43,7 +43,9 @@ It depends on current server mode
 ## Test
 * Tests located in **internal/tests**
 * Look into **usecase_*_test.go** files
-* Before running test you should run docker service
+* Before running test you should:
+  * run docker service
+  * ```go mod tidy```
 * To run test
 ```bash
 make test
