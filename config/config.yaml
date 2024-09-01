@@ -1,0 +1,15 @@
+server:
+  mode: "ENCRYPTION|DECRYPTION"
+  http:
+    addr: 0.0.0.0:8080
+data:
+  folder: "./data"
+  crypto:
+    key: "key"
+  database:
+    host: "host"
+    port: 5432
+    user: "user"
+    password: "password"
+    sslmode: "sslmode"
+    name: "name"
