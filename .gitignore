@@ -40,8 +40,5 @@ bin/
 # Config files
 .env
 
-# Ignore data files
-data/
-
 # Ignore databases volume
 data_volume/
